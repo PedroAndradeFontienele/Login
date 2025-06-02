@@ -1,0 +1,93 @@
+body {
+  background-color: black; /* Define o fundo da página como preto */
+  color: white; /* Define a cor do texto como branca */
+  font-family: Arial, sans-serif; /* Define a fonte do texto */
+  padding-top: 70px; /* Adiciona espaço no topo para não sobrepor o header fixo */
+  text-align: center; /* Centraliza o conteúdo da página */
+}
+
+header {
+  position: fixed; /* Fixa o cabeçalho no topo da página */
+  top: 0; /* Alinha o cabeçalho ao topo */
+  left: 0; /* Alinha o cabeçalho à esquerda */
+  width: 100%; /* Faz o cabeçalho ocupar toda a largura */
+  background-color: #ffeb3b; /* Define a cor de fundo do cabeçalho (amarelo) */
+  color: #222; /* Define a cor do texto no cabeçalho */
+  padding: 10px; /* Espaçamento interno do cabeçalho */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); /* Sombra abaixo do cabeçalho */
+  font-weight: bold; /* Deixa o texto do cabeçalho em negrito */
+}
+
+header div {
+  font-size: 18px; /* Tamanho da fonte do conteúdo dentro do div no cabeçalho */
+  margin-bottom: 5px; /* Espaço abaixo do div */
+}
+
+nav a {
+  margin: 0 10px; /* Espaço entre os links do menu */
+  color: #222; /* Cor do texto dos links */
+  text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse nos links */
+}
+
+form {
+  margin-top: 40px; /* Espaço acima do formulário */
+}
+
+input {
+  padding: 8px; /* Espaço interno do input */
+  width: 200px; /* Largura do input */
+  border: none; /* Remove a borda padrão */
+  border-radius: 5px; /* Arredonda os cantos do input */
+}
+
+button {
+  margin-top: 10px; /* Espaço acima do botão */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  background-color: #ffeb3b; /* Cor de fundo do botão */
+  color: black; /* Cor do texto do botão */
+  border: none; /* Remove a borda do botão */
+  border-radius: 5px; /* Arredonda os cantos do botão */
+  cursor: pointer; /* Muda o cursor para "mão" ao passar o mouse */
+}
+
+button:hover {
+  background-color: #fdd835; /* Muda a cor de fundo do botão ao passar o mouse */
+}
+
+
+
+.top-bar {
+  position: fixed; /* fixa no topo da tela */
+  top: 0;
+  left: 0;
+  width: 100%; /* ocupa toda a largura */
+  background-color: #ffeb3b; /* amarelo vibrante */
+  color: #222; /* texto escuro para contraste */
+  display: flex; /* flexbox para alinhar */
+  justify-content: space-between; /* logo esquerda, nav direita */
+  align-items: center; /* centraliza vertical */
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  z-index: 1000; /* fica por cima */
+  font-family: "Arial Black", sans-serif;
+  font-size: 12px;
+}
+
+label {
+  color: yellow;
+}
+
+h2 {
+  color: yellow;
+}
+
+
+
+
+
+
+
